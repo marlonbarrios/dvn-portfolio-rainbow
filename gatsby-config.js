@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `Daniel Van Note`,
     siteTitleAlt: `Daniel Van Note - Portfolio`,
     siteHeadline: `Daniel Van Note - Portfolio`,
-    siteUrl: `https://jodie.lekoarts.de`,
+    siteUrl: `https://marlonbarriossolano.io`,
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
