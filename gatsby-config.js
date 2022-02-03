@@ -22,7 +22,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `About`, slug: `/about` },
+          { name: `Daniel Van Note`, slug: `/about` },
           { name: `All Projects`, slug: `/projects` },
           { name: `Narrative Videos`, slug: `/narrative-videos` },
           { name: `Commercial Work`, slug: `/commercial` },

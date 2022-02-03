@@ -1,4 +1,7 @@
 import { IGatsbyImageData } from "gatsby-plugin-image"
+import { onlyProjects } from "./resolver-templates";
+
+
 
 export interface IGridItem {
   slug: string
@@ -12,20 +15,25 @@ export interface IGridItem {
 }
 
 function defaultResolver(data: IGridItem[]): IGridItem[] {
+  
   return data
 }
 
 function modifyGrid(data: IGridItem[], resolver = defaultResolver): IGridItem[] {
+
   return resolver(data)
+  const modifyGrid = data => onlyProjects(data)
+
 }
+
 
 /**
  * Examples:
  *
  * You can import the onlyPages() function to filter out everything but pages:
  *
- * const modifyGrid = data => onlyPages(data)
- *
+
+
  * You can also do more sophisticated filtering, like the filterBySlug() function that also takes in a second parameter (an array of slugs)
  * You'll need to pass the data in the second argument:
  *
