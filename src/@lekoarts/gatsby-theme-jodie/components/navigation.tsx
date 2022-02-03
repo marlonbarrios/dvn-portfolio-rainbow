@@ -38,16 +38,14 @@ const Navigation = ({ bg }: { bg: string }) => {
   
       <ul>
         {navigation.map((navItem) => (
-          <li key={navItem.slug}>
-            <Link sx={(t) => ({ ...t.styles?.a })} to={replaceSlashes(`/${basePath}/${navItem.slug}`)}>
-              {navItem.name}
+          <li  key={navItem.slug}>
+            <Link style={{backgroundColor:'black', color: 'white', borderRadius: '3px', paddingInline: '3px'}} sx={(t) => ({ ...t.styles?.a })} to={replaceSlashes(`/${basePath}/${navItem.slug}`)}>{(' ')}{navItem.name}
             </Link>
           </li>
         ))}
       </ul>
       <Link to="https://www.linkedin.com/in/daniel-van-note-004352228/" ><LinkedInIcon sx={{ fontSize: 40 }} > </LinkedInIcon> </Link>
     </nav>
-
   )
 }
 

@@ -22,12 +22,12 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Daniel Van Note`, slug: `/about` },
-          { name: `All Projects`, slug: `/projects` },
-          { name: `Narrative Videos`, slug: `/narrative-videos` },
-          { name: `Commercial Work`, slug: `/commercial` },
-          { name: `Other Work`, slug: `/other` },
-          { name: `Contact Me`, slug: `/contact` }
+          { name: ` Daniel Van Note `, slug: `/about` },
+          { name: ` All Projects `, slug: `/projects` },
+          { name: ` Narrative Videos `, slug: `/narrative-videos` },
+          { name: ` Commercial Work `, slug: `/commercial` },
+          { name: ` Other Work `, slug: `/other` },
+          { name: ` Contact Me `, slug: `/contact` }
           
         ],
       },
