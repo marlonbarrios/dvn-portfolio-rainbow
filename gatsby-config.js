@@ -11,9 +11,9 @@ module.exports = {
     siteTitleAlt: `Daniel Van Note - Portfolio`,
     siteHeadline: `Daniel Van Note - Portfolio`,
     siteUrl: `https://marlonbarriossolano.io`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteDescription: `Daile Van Note Portfolio`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/favicon-256x256`,
     author: `@lekoarts_de`,
   },
   plugins: [

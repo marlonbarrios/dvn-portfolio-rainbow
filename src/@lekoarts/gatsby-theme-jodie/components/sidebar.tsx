@@ -7,6 +7,7 @@ import useSiteMetadata from "../hooks/use-site-metadata"
 import useJodieConfig from "../hooks/use-jodie-config"
 import Navigation from "./navigation"
 
+
 type SidebarProps = { bg: string }
 
 const Sidebar = ({ bg }: SidebarProps) => {
@@ -14,6 +15,7 @@ const Sidebar = ({ bg }: SidebarProps) => {
   const { basePath } = useJodieConfig()
 
   return (
+   
     <header
       sx={{
         p: [3, 3, 4],
@@ -32,12 +34,24 @@ const Sidebar = ({ bg }: SidebarProps) => {
       }}
       data-testid="sidebar"
     >
+      
       <Link to={basePath} aria-label={`${siteTitle}, Back to Home`} sx={{ width: [`3rem`, `4rem`, `4.5rem`, `5rem`] }}>
+     
         <Logo />
+       
       </Link>
+     
+   
       <div sx={{ py: 4, display: [`none`, `none`, `none`, `block`] }} />
+     
       <Navigation bg={bg} />
+   
+     
+  
     </header>
+   
+  
+    
   )
 }
 

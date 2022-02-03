@@ -22,7 +22,7 @@ function defaultResolver(data: IGridItem[]): IGridItem[] {
 function modifyGrid(data: IGridItem[], resolver = defaultResolver): IGridItem[] {
 
   return resolver(data)
-  const modifyGrid = data => onlyProjects(data)
+
 
 }
 

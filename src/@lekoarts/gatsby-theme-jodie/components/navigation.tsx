@@ -5,10 +5,13 @@ import { readableColor } from "polished"
 import { replaceSlashes } from "../utils/replace-slashes"
 import useJodieConfig from "../hooks/use-jodie-config"
 
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 const Navigation = ({ bg }: { bg: string }) => {
   const { navigation, basePath } = useJodieConfig()
 
   return (
+  
     <nav
       aria-label="Primary Navigation"
       sx={{
@@ -32,6 +35,7 @@ const Navigation = ({ bg }: { bg: string }) => {
         variant: `navigation`,
       }}
     >
+  
       <ul>
         {navigation.map((navItem) => (
           <li key={navItem.slug}>
@@ -41,7 +45,9 @@ const Navigation = ({ bg }: { bg: string }) => {
           </li>
         ))}
       </ul>
+      <Link to="https://www.linkedin.com/in/daniel-van-note-004352228/" ><LinkedInIcon sx={{ fontSize: 40 }} > </LinkedInIcon> </Link>
     </nav>
+
   )
 }
 
