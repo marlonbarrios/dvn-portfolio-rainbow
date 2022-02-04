@@ -26,9 +26,6 @@ const modifyGrid = (data) => onlyProjects(data);
 
 
 
-
-
-
 /**
  * Examples:
  *
