@@ -26,8 +26,8 @@ module.exports = {
           { name: ` Narrative Videos `, slug: `/narrative-videos` },
           { name: ` Commercial Work `, slug: `/commercial` },
           { name: ` Other Work `, slug: `/other` },
-          { name: ` Contact Me `, slug: `/contact` },
-          //{ name: ` All Projects `, slug: `/projects` }
+          { name: ` Contact Me `, slug: `/contact` }
+        
           
         ],
       },
