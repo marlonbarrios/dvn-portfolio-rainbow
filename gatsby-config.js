@@ -27,7 +27,7 @@ module.exports = {
           { name: ` Commercial Work `, slug: `/commercial` },
           { name: ` Other Work `, slug: `/other` },
           { name: ` Contact Me `, slug: `/contact` },
-          { name: ` All Projects `, slug: `/projects` }
+          //{ name: ` All Projects `, slug: `/projects` }
           
         ],
       },

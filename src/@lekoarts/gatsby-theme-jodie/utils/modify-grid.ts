@@ -1,5 +1,5 @@
 import { IGatsbyImageData } from "gatsby-plugin-image"
-import { shuffle, onlyPages } from "./resolver-templates";
+import { onlyProjects } from "./resolver-templates";
 
 
 
@@ -20,7 +20,7 @@ function defaultResolver(data: IGridItem[]): IGridItem[] {
 }
 
 //const modifyGrid = (data) => onlyPages(data);
-const modifyGrid = (data) => shuffle(data);
+const modifyGrid = (data) => onlyProjects(data);
 
 
 
