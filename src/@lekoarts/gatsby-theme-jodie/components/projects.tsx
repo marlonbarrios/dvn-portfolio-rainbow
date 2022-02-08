@@ -44,7 +44,7 @@ const Project: React.FC<PageProps<DataProps>> = ({ data: { projects }, location 
           </GridItem>
         ))
       ) : (
-        <div sx={{ padding: 3 }}>No projects found at the location defined for "projectsPath"</div>
+        <div sx={{ padding: 10 }}>No projects found at the location defined for "projectsPath"</div>
       )}
     </div>
   </Layout>

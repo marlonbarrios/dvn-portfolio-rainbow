@@ -1,5 +1,6 @@
+import { random } from "core-js/core/number";
 import { IGatsbyImageData } from "gatsby-plugin-image"
-import { onlyProjects } from "./resolver-templates";
+import { onlyPages, onlyProjects, shuffle } from "./resolver-templates";
 
 
 
@@ -14,13 +15,13 @@ export interface IGridItem {
   __typename: "MdxProject" | "MdxPage"
 }
 
-function defaultResolver(data: IGridItem[]): IGridItem[] {
+function homepageProjectLimit(data: IGridItem[]): IGridItem[] {
   
   return data
 }
 
-//const modifyGrid = (data) => onlyPages(data);
-const modifyGrid = (data) => onlyProjects(data);
+const modifyGrid = (data) => shuffle(data);
+//const modifyGrid = (data) => onlyProjects(data);
 
 
 
@@ -39,4 +40,4 @@ const modifyGrid = (data) => onlyProjects(data);
  * const modifyGrid = (data) => filterBySlug(data, ["/about"])
  */
 
-export default modifyGrid
+export default modifyGrid;

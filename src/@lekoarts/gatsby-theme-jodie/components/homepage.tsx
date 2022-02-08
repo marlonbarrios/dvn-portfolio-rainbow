@@ -73,7 +73,7 @@ const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } })
               </GridItem>
             ))
           ) : (
-            <div sx={{ padding: 3 }}>
+            <div sx={{ padding: 10 }}>
               No projects and pages found at the locations defined for "projectsPath" and "pagesPath"
             </div>
           )}
