@@ -1,4 +1,4 @@
-import { random } from "core-js/core/number";
+
 import { IGatsbyImageData } from "gatsby-plugin-image"
 import { onlyPages, onlyProjects, shuffle } from "./resolver-templates";
 
@@ -20,7 +20,7 @@ function homepageProjectLimit(data: IGridItem[]): IGridItem[] {
   return data
 }
 
-const modifyGrid = (data) => shuffle(data);
+const modifyGrid = (data) => onlyPages(data);
 //const modifyGrid = (data) => onlyProjects(data);
 
 
