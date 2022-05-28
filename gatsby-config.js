@@ -24,7 +24,7 @@ module.exports = {
         navigation: [
           { name: ` Daniel Van Note `, slug: `/about`,  },
           { name: ` Commercial Work `, slug: `/commercial` },
-          { name: ` Narrative Videos `, slug: `/narrative-videos` },
+          { name: ` Narrative Shorts `, slug: `/narrative-shorts` },
        
           { name: ` All Projects `, slug: `/projects` },
           { name: ` Other Work `, slug: `/other` },
